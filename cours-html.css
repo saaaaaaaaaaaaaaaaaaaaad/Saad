@@ -1,0 +1,84 @@
+.impaire{
+    background-color : rgba(255, 255, 0, 0.2);
+}
+#sel{
+     background-color : rgba(255, 255, 0, 0.2);
+ }
+ p ~ span {
+     color : red;
+}
+span { background-color : white; 
+}
+div > span { background-color : blue; 
+}
+
+li { list-style-type : disc; 
+}
+li li { list-style-type : circle;
+}
+a :visited{ color : #00ff00; 
+}
+a:visited{
+    color:blueviolet ;
+}
+#sa{ background-color : gold; }
+.prenom {
+    background : yellow;
+    color : red;
+}
+.nom {
+    background : yellow;
+     color : lime;
+    }
+    input{
+         border : 2px solid red;
+        }
+    #myDiv1 {
+             width: 100px;
+             height: 100px;
+             background-color: yellow;
+             border: 1px dashed red;
+             border-radius: 10px;
+             box-shadow: 10px 10px 5px gray;
+             }
+             .ex1 {
+                 margin : auto;
+                 background : gold;
+                 width : 66%;
+                 }
+                 .ex2 {
+                 margin : 20px 0px 0 -20px;
+                 background : gold;
+                 width : 66%;
+                 }
+h4 {
+background-color : rgb(52, 99, 193);
+ padding : 10px 20px 20px 50px;
+}
+ h3 {
+background-color : rgb(255, 196, 0);
+padding : 40px 5%;
+}
+p{
+ color : blue;
+ font-size : 24px;
+ font-family : cursive;
+ background-color  : yellow;
+}
+.conteneur {
+background-color : blue;
+height:230px;
+     width : 500px;
+     display : flex;
+     flex-direction : row;
+     align-items : stretch,flex-start , flex-end , center , baseline;
+     justify-content : flex-start , flex-end , center , space-around , space-between , space-evenly;
+ }
+    
+                    
+        
+    
+
+    
+    
+    
